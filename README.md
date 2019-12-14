@@ -15,7 +15,7 @@ Complete a single resource application which will be a Blog with Posts following
 5. [Getting Up and Running](https://guides.rubyonrails.org/getting_started.html#getting-up-and-running)
 
 
-### steps to do after clone
+## steps to do after clone
 please run these commands after clone:
 1. `sudo bundle install`
 2. `sudo yarn install`
