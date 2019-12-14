@@ -17,9 +17,9 @@ Complete a single resource application which will be a Blog with Posts following
 
 ### steps to do after clone
 please run these commands after clone:
-1- `sudo bundle install`
-2- `sudo yarn install`
-3- `sudo rails webpacker:install`
-4- `sudo rails db:create`
-5- `sudo rails db:migrate`
-6- `sudo rails server` or `sudo rails s`
+1. `sudo bundle install`
+2. `sudo yarn install`
+3. `sudo rails webpacker:install`
+4. `sudo rails db:create`
+5. `sudo rails db:migrate`
+6. `sudo rails server` or `sudo rails s`
