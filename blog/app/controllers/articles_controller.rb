@@ -9,6 +9,7 @@ class ArticlesController < ApplicationController
     def edit
         @article = Article.find(params[:id])
     end
+    
 
     def new
         @article = Article.new
@@ -23,6 +24,15 @@ class ArticlesController < ApplicationController
           render 'new'
         end
     end
+    def update
+        @article = Article.find(params[:id])
+       
+        if @article.update(article_params)
+          redirect_to @article
+        else
+          render 'edit'
+        end
+      end
 
     private
     def article_params
