@@ -1,0 +1,14 @@
+<%= form_for @movie, url: {action: "update"} do |f| %>
+
+<%= f.label :title%>
+<%= f.text_field :title%>
+
+<%= f.label :actor%>
+<%= f.text_field :actor%>
+
+<%= f.label :image%>
+<%= f.text_field :image%>
+
+<%= f.submit "update"%>
+
+<% end %>
